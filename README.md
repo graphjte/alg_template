@@ -9,6 +9,7 @@
 - [Edmonds Karp](./src/edmonds_karp.cpp)
 - [HLD on tree](./src/hld.cpp)
 - [maximum maching](./src/matching.cpp)
+- [LCA](./src/lca.cpp)
 
 ## Data structures
 - [non-recursive segment tree](./src/non_recursive_seg_tree.cpp)
@@ -17,3 +18,4 @@
 
 ## Other
 - [convex hull dp](./src/convex_hull_dp.cpp)
+- [big num](./src/big_num.cpp)
