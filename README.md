@@ -8,6 +8,7 @@
 - [Dinic](./src/dinic.cpp)
 - [Edmonds Karp](./src/edmonds_karp.cpp)
 - [HLD on tree](./src/hld.cpp)
+- [Centroid decomp on tree](./src/centroid.cpp)
 - [maximum maching](./src/matching.cpp)
 - [LCA](./src/lca.cpp)
 
