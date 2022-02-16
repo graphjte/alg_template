@@ -1,8 +1,6 @@
 typedef vector<ll> bigNum;
 
 const int MOD=1e9;
-bigNum a, b;
-bool Neg=0;
 
 bigNum toBig(int a)
 {
@@ -40,6 +38,13 @@ bigNum operator - (bigNum a , bigNum b)
     a.resize(max(a.size(),b.size()));
     REP(i,b.size()) a[i]-=b[i];
     return Fix(a);
+}
+
+bigNum operator +(bigNum a, bigNum b)
+{
+	a.resize(max(a.size(),b.size()));
+	for(int i=0; i<(int)b.size(); i++) a[i]+=b[i];
+	return Fix(a);
 }
 
 bigNum operator * ( bigNum &a, bigNum &b )
